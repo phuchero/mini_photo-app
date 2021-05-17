@@ -1,0 +1,25 @@
+.random-photo{
+    $demension : 300px;
+    &__button{
+        margin-bottom: 1rem;
+        border:1px;
+    }
+
+
+    &__photo{
+        width: $demension;
+        height:$demension;
+        border-radius: 0.5rem;
+        background-color:#eee;
+
+    }
+
+    & > img{
+        width: 100%;
+        height:100%;
+
+
+        border-radius:0.5rem;
+        vertical-align:middle;
+    }
+}

@@ -1,0 +1,20 @@
+.banner{
+display:flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: center;
+
+    height:30rem;
+
+    background-image: url(../../assets/images/theme1.png);
+    background-position: center;
+    background-size: cover;
+
+    &__title{
+        color: aliceblue;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+
+}
